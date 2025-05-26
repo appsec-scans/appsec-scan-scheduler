@@ -1,0 +1,15 @@
+name: Create AppSec PR 
+on:
+  workflow_dispatch:
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.SCHEDULER_TOKEN }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Run PR creation script
+        run: |
+          python3 create_pr.py
