@@ -44,7 +44,7 @@ def commit_file():
  
 def create_pull_request():
     url = f"https://api.github.com/repos/{REPO}/pulls"
-    with open("appsec.yaml", "r") as f:
+    with open("pr_description.md", "r") as f:
         body = f.read()
     data = {
         "title": "Add AppSec GitHub Workflow",
