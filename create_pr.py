@@ -4,7 +4,7 @@ import requests
  
 def create_appsec_pr():
     github_token = os.getenv("GH_TOKEN")
-    repo = "appsec-scans/cxone-demo-3"
+    repo = "appsec-scans/cxone-demo-1"
     base_branch = "main"
     new_branch = "add-appsec-workflow"
  
