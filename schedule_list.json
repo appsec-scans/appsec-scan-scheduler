@@ -1,10 +1,6 @@
 [
   {
-    "repo_name": "my-test-1234/use-cxone-action",
+    "repo_name": "appsec-scans/cxone-demo-1",
     "branch": "main"
-  },
-  {
-    "repo_name": "my-test-1234/use-cxone-action",
-    "branch": "SAI-sec-patch-11"
   }
 ]
