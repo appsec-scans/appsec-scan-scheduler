@@ -6,7 +6,7 @@ import os
 
 import requests
  
-GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
+GITHUB_TOKEN = os.environ["GH_TOKEN"]
 
 REPO = "appsec-scans/cxone-demo-1"
 
