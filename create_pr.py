@@ -4,7 +4,7 @@ import os
 import requests
 
 GITHUB_TOKEN = os.environ["GH_TOKEN"]
-REPO = "appsec-scans/cxone-demo-4"
+REPO = "appsec-scans/cxone-demo-5"
 BRANCH = "main"
 NEW_BRANCH = "add-appsec-workflow"
 WORKFLOW_PATH = ".github/workflows/appsec.yaml"
